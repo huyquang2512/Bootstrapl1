@@ -44,7 +44,6 @@ body{
     width: 20%;
     min-height: 8vh;
     float: right;
-    
 }
 .col-2{
     height: auto;
@@ -63,7 +62,7 @@ body{
     margin-top: 22%;
 }
 a{
-    text-decoration: none; 
+    text-decoration: none;
     color: white;
 }
 li:hover{
@@ -82,7 +81,7 @@ li{
 .list-group{
     background-color: #2a2f33;
 }
-.containersss{ 
+.containersss{
     margin-left: 20%;
     margin-top: 100px;
     height: 50px;
@@ -124,7 +123,6 @@ li{
     margin: 5%;
     max-width: 90%;
 }
- 
 .conten-2{
     width: 90%;
     margin-left: 5%;
@@ -184,7 +182,6 @@ a {
     display: inline-block;
     padding: 8px 16px;
   }
-  
   a:hover {
     background-color: cornflowerblue;
     color: white;
@@ -203,9 +200,9 @@ a {
       position: relative;
   }
   #img2{
-    position: absolute;
-    top:40%; 
-      right: 0;  
+    position:absolute;
+    top:40%;
+      right: 0;
     max-width: 20%;
 }
 .tabRight2{
@@ -221,4 +218,12 @@ a {
     color: #fff;
     bottom:10%;
     font-size: 90%;
+}
+.card-img-overlay:hover{
+    -webkit-box-shadow: 0 0 10px 2px rgb(0, 0, 0,0.6);
+}
+.card-img-overlay:hover{
+    transition-duration: 1s;
+    background-color: rgba(255, 255, 255,0.4);
+    -webkit-box-shadow: 0 0 10px 5px rgb(0, 0, 0,0.6);
 }
